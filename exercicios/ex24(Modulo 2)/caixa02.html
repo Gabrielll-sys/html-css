@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blanchedalmond;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 8px;
+            margin: 10px;
+
+        }
+        main{
+            background-color: white;
+            padding: 8px;
+            margin: 10px;
+            border-radius: 10px 15px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 6px;
+            margin: 0px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+        article{
+            background-color: rgb(238, 144, 144);
+
+        }
+        article>aside{
+            background-color: rgb(91, 89, 218);
+        }
+        nav{
+            background-color: gray;
+            padding: 2px;
+            box-shadow:4px 4px 4px rgba(0, 0, 0, 0.452) ;
+        }
+        nav>a{
+            text-decoration:none;
+            color: rgb(255, 255, 255);
+            margin-right: 25px;
+        }
+        nav>a:hover{
+            color: black;
+            text-decoration: underline;
+           
+        }
+        div#bola{
+            height:100px;
+            width:100px;
+            background-color: white;
+            margin: 10px;
+            border-radius:50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id = "assuntos"> 
+            <p>Notícias sobre esportes</p>
+
+        </section>
+        <section id = "noticias">
+            <article>
+            <h2>Notícias sobre o brasil</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatibus necessitatibus rerum harum cum a optio laboriosam omnis quis, repellendus eaque doloremque dolore velit expedita animi tenetur quasi porro iste maiores. Deserunt praesentium nostrum vero aliquam facere eaque repudiandae vitae?</p>
+            </article>
+            <aside>
+                <p>Artigo escrito to taka masanomuro</p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por tetako nakama</p>
+    </footer>
+    <div id ="bola"></div>
+</body>
+</html>
