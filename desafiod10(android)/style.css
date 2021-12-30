@@ -173,17 +173,32 @@ aside>ul{
 footer{
     background-color: var(--cor5);
     color: white;
-    text-align: center;
+ 
     font-size:0.8em;
     padding: 5px;
 }
 footer>p{
-    width: 100%;
+    width: auto;
     margin:auto;
     font-weight: bold;
-    font-size:1.2em
+    font-size:1.2em;
+    text-align: center;
+    
+   
+    
 }
 footer a {
     color: white;
     font-weight: bold;
+}
+
+    
+
+footer div{
+    padding:12px;
+    width: 100px;
+    display: inline;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top: 10px;
 }
